@@ -7,6 +7,6 @@ variable "database_name" {
 }
 
 variable "backup_retention_period" {}
-variable "preffered_backup_window" {}
+variable "preferred_backup_window" {}
 variable "engine" {}
 variable "engine_version" {}
