@@ -11,7 +11,7 @@ resource "aws_rds_cluster" "main" {
     skip_final_snapshot = true
     
     tags = merge(
-      var.tas,
+      var.tags,
         { Name = "${var.env}-rds" }
     )
 }
